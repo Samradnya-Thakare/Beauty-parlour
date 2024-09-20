@@ -302,6 +302,7 @@ body {
   font-size: 20px;
   margin-left: 130px;
   margin-right: 1000px;
+  margin-bottom: 130px;
 }
 
 .title {
@@ -355,5 +356,50 @@ body {
 }
 .about-img{
   width: 500px;
+ 
+}
+.sign {
+  text-align: center;
+  
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.par {
+  display: flex;
+  justify-content: space-evenly;
+}
+.signin {
+  display: block;
+  margin: 10px auto;
+  margin-bottom: 20px;
+}
+.input {
+  background-color: #e6e6e6;
+  width: 150px;
+  padding: 6px 10px;
+}
 
+.btnsign {
+  width: 150px;
+  padding: 6px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color:black;
+  box-shadow: inset 0 0 0 2px black;
+  color: #e6e6e6;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+}
+.email{
+  padding: 10px;
+  font-size: 25px;
+  background-color: black;
+  border: none;
+}
+.sign1{
+  text-align: center;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
